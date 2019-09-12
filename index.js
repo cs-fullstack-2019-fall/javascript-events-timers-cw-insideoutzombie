@@ -12,8 +12,10 @@ boxcheck.addEventListener("click", validate);
 let btninput = document.getElementById("allowtype");
 let txtarea = document.getElementById("sometxt");
 
+// !! : your entire js file would not run because you had an empty if statment. Make sure that you comment out any broken code so I can grade what you have correctly. 
 function enableText() {
 
+// your missing a flag (a boolean value that you change in a condition or loop)
   txtarea = true;
   if () {
     txtarea = true;
